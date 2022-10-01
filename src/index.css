@@ -1,0 +1,15 @@
+html{
+  scroll-behavior: smooth;
+  min-height: -webkit-fill-available;
+  
+}
+body {
+  background: #F3F3F3;
+  height: -webkit-fill-available;
+}
+
+:root {
+  --font-family-R: 'Roboto', sans-serif;
+  --font-family-P: 'Poppins', sans-serif;
+  --font-family-RMono: 'Roboto Mono', sans-serif;
+}

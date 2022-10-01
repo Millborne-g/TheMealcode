@@ -1,0 +1,180 @@
+.navbar{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+
+    z-index: 2 ;
+}
+
+.navbar_inner{
+    height: 10vh;
+    /*width: 95%;*/
+    width: 1360px;
+
+}
+
+.logo_container{
+    height: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.logo_img{
+    height: 70px;
+    padding-right: 1.5%;
+
+}
+.logo_name{
+    font-family: var(--font-family-R);
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: -5%;
+
+    color: #3C1874;
+}
+
+.logo_name_meal{
+    font-family: var(--font-family-R);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 2%;
+
+    color: #D05353;
+}
+
+
+.about_container{
+    height: 100%;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+}
+
+.about_link{
+    text-decoration: none;
+    font-family: var(--font-family-P);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #283747;
+}
+
+/*small screen view*/
+@media screen and (max-width: 1370px) {
+    .navbar_inner{
+        width: 1330px;
+    }
+    .logo_container{
+        padding-left: 20px;
+    }
+    .logo_img{
+        height: 50px;
+    
+    }
+    .logo_name{
+        font-size: 30px;
+        
+    }
+    
+    .logo_name_meal{
+        font-size: 30px;
+    }
+
+    .about_container{
+        padding-right: 20px;
+    }
+
+    .about_link{
+        
+        font-size: 15px;
+    }
+    
+}
+
+/*tablet view*/
+@media screen and (max-width: 770px) {
+    .navbar{
+        height: 110px;
+    }
+    .logo_container{
+        padding-left: 30px;
+    }
+    .logo_img{
+        height: 50px;
+    
+    }
+    .logo_name{
+        font-size: 30px;
+        
+    }
+    
+    .logo_name_meal{
+        font-size: 30px;
+    }
+
+    .about_container{
+        padding-right: 30px;
+    }
+
+    .about_link{
+        
+        font-size: 15px;
+    }
+    
+}
+
+/*mobile view*/
+@media screen and (max-width: 550px) {
+    .navbar{
+        height: 70px;
+    }
+    .logo_container{
+        padding-left: 15px;
+    }
+    .logo_img{
+        height: 35px;
+    
+    }
+    .logo_name{
+        font-size: 20px;
+        
+    }
+    
+    .logo_name_meal{
+        font-size: 20px;
+    }
+
+    .about_container{
+        padding-right: 20px;
+    }
+
+    .about_link{
+        
+        font-size: 13px;
+    }
+    
+}
+
+
